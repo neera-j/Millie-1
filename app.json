@@ -1,9 +1,10 @@
 {
-    "name": "Bottus",
-    "description": " Whatsapp bot.",
+    "name": "GIDΣӨП",
+    "description": " Whatsapp User bot.",
     "keywords": [
         "whatsapp",
-        "bot"
+        "bot",
+        "user bot"
     ],
     "stack": "container",
     "env": {
@@ -16,7 +17,7 @@
             "required": false
         },
         "HANDLERS": {
-            "description": "enter prefix.",
+            "description": "enter prefix. set false if you don,t want to use prefixes",
             "required": true,
             "value": "^[.]"
         },
@@ -61,7 +62,7 @@
         "WARN_COUNT": {
             "description": "Maximum no of warns",
             "required": false,
-            "value": "3"
+            "value": "5"
         },
         "WARN_MSG": {
             "description": "Message send while kicking.",
